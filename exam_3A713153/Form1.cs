@@ -71,7 +71,7 @@ namespace exam_3A713153
                     MessageBox.Show($"沒錯!就是{input_int}", "YesYesYes", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                     a = a + 1;
                 }
-                rtbout.Text=$"你猜的次數為{a}次";
+                rtbout.Text=$"你猜的次數為{a}次!";
             }
             catch (Exception)
             {
