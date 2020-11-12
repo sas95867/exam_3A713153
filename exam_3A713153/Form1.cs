@@ -15,7 +15,7 @@ namespace exam_3A713153
     {
         List<Image> list = new List<Image>();
 
-        int a,b;
+        int a;
 
         public Form1()
         {
@@ -24,7 +24,7 @@ namespace exam_3A713153
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("比大小換圖片", "開始囉!", MessageBoxButtons.OK);
+            MessageBox.Show("比大小換圖片", "開始囉!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             list.Add(Resources._002);
             list.Add(Resources._003);
             list.Add(Resources._004);
@@ -86,7 +86,7 @@ namespace exam_3A713153
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            MessageBox.Show("關起來","爛遊戲別玩了");
+            MessageBox.Show("關起來","爛遊戲別玩了",MessageBoxButtons.OK,MessageBoxIcon.Error);
         }
 
         private void rtbout_TextChanged(object sender, EventArgs e)
